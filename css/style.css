@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+#page_wrap {
+    width: 816px;
+    min-height: 1056px;
+    margin: 20px auto;
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+    padding: 64px 96px 96px 144px;
+    font-size: 16px;
+    font-family: courier;
+    color:rgb(41, 41, 41);
+    /* border: 1px solid black; */
+}
+
+#page:focus {
+    outline: none;
+}
+
+.scene-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2em;
+    background-color: rgb(194, 194, 194);
+    color:rgb(41, 41, 41);
+    padding-left: 5px;
+}
+
+.scene-action {
+    margin-top: 1em;
+}
+
+.scene-character {
+    margin: 1em 0 0 211px;
+    text-transform: uppercase;
+}
+
+.scene-character-parentheticals {
+    margin: 0 0 0 154px
+}
+.scene-character-parentheticals::before {
+    content: "(";
+    color:rgb(41, 41, 41);
+}
+.scene-character-parentheticals::after {
+    content: ")";
+    color:rgb(41, 41, 41);
+}
+
+.scene-character-dialogue {
+    margin: 0 0 0 96px;
+    max-width: 336px;
+    width: 336px;      
+}
