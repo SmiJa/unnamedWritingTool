@@ -15,9 +15,6 @@ document
 
             console.log("You pressed Alt + a");
             row.className = "line scene-header";
-            // row.innerHTML += `
-            // <span class="scene-header"></span>
-            // `
             console.log(caretParent());
         }
     });
@@ -29,9 +26,6 @@ document
 
             console.log("You pressed Alt + a");
             row.className = "scene-action";
-            // row.innerHTML += `
-            // <span class="scene-header"></span>
-            // `
             console.log(caretParent());
         }
     });
@@ -43,9 +37,6 @@ document
 
             console.log("You pressed Alt + a");
             row.className = "scene-character";
-            // row.innerHTML += `
-            // <span class="scene-header"></span>
-            // `
             console.log(caretParent());
         }
     });
@@ -57,9 +48,6 @@ document
 
             console.log("You pressed Alt + a");
             row.className = "scene-character-dialogue";
-            // row.innerHTML += `
-            // <span class="scene-header"></span>
-            // `
             console.log(caretParent());
         }
     });
@@ -71,9 +59,6 @@ document
 
             console.log("You pressed Alt + a");
             row.className = "scene-character-parentheticals";
-            // row.innerHTML += `
-            // <span class="scene-header"></span>
-            // `
             console.log(caretParent());
         }
     });
